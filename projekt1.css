@@ -1,0 +1,159 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+
+    background-color: black;
+
+  }
+
+  
+
+  html {
+
+    box-sizing: border-box;
+
+  }
+
+  
+
+  *, *:before, *:after {
+
+    box-sizing: inherit;
+
+  }
+
+  
+
+  .sor {
+
+    float: left;
+
+    width: 33.3%;
+
+    margin-bottom: 16px;
+
+    padding: 0 8px;
+
+background-color: orange;  
+
+}
+
+:root {
+
+    --primary-color: #000000;
+
+    --secondary-color: #ffffff;    /*ezt meg nem fejeztem be csak leirtam amit ertettem belole*/
+
+}
+
+  
+
+  .card {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    margin: 8px;
+
+  }
+
+  
+
+  .rolunk {
+
+    padding: 50px;
+
+    text-align: center;
+
+    background-color:orange;
+
+    color: black;
+
+  }
+
+  
+
+  .tartalom {
+
+    padding: 0 16px;
+
+  }
+
+  
+
+  .tartalom::after, .sor::after {
+
+    content: "";
+
+    clear: both;
+
+    display: table;
+
+  }
+
+  
+
+  .title {
+
+    color: grey;
+
+  }
+
+    
+
+  
+
+    .oszlop {
+
+      width: 100%;
+
+      display: block;
+
+    }
+
+
+
+
+
+    @media screen and (max-width: 650px) {
+
+        .column {
+
+          width: 100%;
+
+          display: block;
+
+        }
+
+    }
+
+ .button{
+
+    background-color: black;
+
+    text-align: center;
+
+
+
+}
+
+
+
+    #icon {
+
+        width: 30px;
+
+        cursor: pointer;
+
+            }
+
+
+
+            .button2{    
+
+              cursor: pointer;
+
+              background-color: orange;
+
+            }
